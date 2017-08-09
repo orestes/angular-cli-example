@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: '',
     children: []
+  },
+  {
+    path: 'home',
+    loadChildren: 'app/home/home.module#HomeModule',
   }
 ];
 
